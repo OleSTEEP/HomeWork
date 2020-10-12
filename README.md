@@ -1,9 +1,9 @@
 # HomeWork
 
-# Русский язык
+## Русский язык
 Скрипт, отправляющий домашнее задание в беседу ВКонтакте
 
-## Установка
+### Установка
 * Установите Python 3.8  
 * pip install -r 'путь/к/корневой/папке/requirements.txt'  
 * Загрузите файл 'homework (send to google drive).py' и 'timetables (send to google drive).py' на ваш Google Диск (удалив скобочки и их содержимое из имени файла), предварительно вписав в него нужные значения.  
@@ -13,19 +13,19 @@
 * Откройте vk.com и перейдите в нужную беседу, затем скопируйте число после sel=c  
 * Открываем файл main.py и редактируем Options  
 
-## Запуск (Windows)
+### Запуск (Windows)
 * Запустите launch.bat
 
-## Запуск (Linux)
+### Запуск (Linux)
 * Запустите launch.sh
 
-## Обновление информации
+### Обновление информации
 Файл с домашним заданием (homework.py) и расписанием (timetables.py) обновляется вами посредством Text Editor в Google Drive и синхронизируется автоматически.
 
-# English
+## English
 A script that sends homework to a VKontakte conversation
 
-## Installation
+### Installation
 * Install Python 3.8  
 * pip install -r 'path/to/root/folder/requirements.txt'  
 * Upload the 'homework (send to google drive).py' and 'timetables (send to google drive).py' files to your Google Drive (by removing the parentheses and their contents from the file name), after entering the desired values into it.  
@@ -35,11 +35,11 @@ five). Enter the desired values in the timetables.py file (the timetables folder
 * Open vk.com and go to the desired conversation, then copy the number after sel=c  
 * Open main.py file and edit Options  
 
-## Startup (Windows)
+### Startup (Windows)
 * Just run launch.bat
 
-## Launch (Linux)
+### Launch (Linux)
 * Just run launch.sh
 
-## Updating information
+### Updating information
 The file with homework (homework.py) and timetable (timetables.py) is updated by you through the Text Editor in Google Drive and automatically synchronized.
