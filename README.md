@@ -8,5 +8,5 @@ A script that sends homework to a VKontakte conversation
 
 # English
 Text coming soon
-# Installation
+## Installation
 Text coming soon
