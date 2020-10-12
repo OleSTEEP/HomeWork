@@ -34,8 +34,8 @@ A script that sends homework to a VKontakte conversation
 3). Upload the 'homework (send to google drive).py' and 'timetables (send to google drive).py' files to your Google Drive (by removing the parentheses and their contents from the file name), after entering the desired values into it.  
 4). Get the ID of this file (Be sure to share the link).  
 five). Enter the desired values in the timetables.py file (the timetables folder).  
-6). Go to https://vkhost.github.io/, select Kate Mobile, allow access and copy everything from the address bar, after access_token = and before & expires_in.  
-7). Open vk.com and go to the desired conversation, then copy the number after sel = c  
+6). Go to https://vkhost.github.io/, select Kate Mobile, allow access and copy everything from the address bar, after access_token = and before &expires_in.  
+7). Open vk.com and go to the desired conversation, then copy the number after sel=c  
 8). Open main.py file and edit Options  
 
 ## Startup (Windows)
