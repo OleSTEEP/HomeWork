@@ -28,5 +28,5 @@ class Date():
 
     def Mount():
         from datetime import datetime
-        mount = datetime.today().strftime('%m')
-        return mount
+        month = datetime.today().strftime('%m')
+        return month
