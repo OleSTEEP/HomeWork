@@ -26,7 +26,7 @@ class Date():
         day = day.strftime('%d')
         return day
 
-    def Mount():
+    def Month():
         from datetime import datetime
         month = datetime.today().strftime('%m')
         return month
