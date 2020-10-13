@@ -31,7 +31,7 @@ elif datetime.today().weekday() == 3: # Если сегодня четверг
 elif datetime.today().weekday() == 4: # Если сегодня пятница
     homeworks = homework.saturday  
 
-pattern = f'''{date.Date.WeakDay()}, {date.Date.Day()}.{date.Date.Mount()}:
+pattern = f'''{date.Date.WeakDay()}, {date.Date.Day()}.{date.Date.Month()}:
 
 1. {classes[0]} - {homeworks[0]}
 
