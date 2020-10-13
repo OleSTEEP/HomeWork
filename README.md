@@ -23,7 +23,7 @@
 Файл с домашним заданием (`homework.py`) и расписанием (`timetables.py`) обновляется вами посредством Text Editor в Google Drive и синхронизируется автоматически.
 
 ### Баги  
-* Проблемы с отображением дня в конце месяцев (30 - 31)
+* Не замечено  
 
 ## English
 A script that sends homework to a VKontakte conversation
@@ -48,4 +48,4 @@ five). Enter the desired values in the `timetables.py` file (the `timetables` fo
 The file with homework (`homework.py`) and timetable (`timetables.py`) is updated by you through the Text Editor in Google Drive and automatically synchronized.
 
 ### Bugs
-* Problems displaying the day at the end of months (30 - 31)
+* Non seen
