@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
-from datetime import datetime
 import time
 
 class Date():
     def WeakDay():
+        from datetime import datetime
         week_day = datetime.today().weekday()
         if week_day == 6:
             week_day = 'ПОНЕДЕЛЬНИК'
@@ -21,10 +21,12 @@ class Date():
         return week_day
 
     def Day():
-        day = datetime.today().strftime('%d')
-        day = int(day) + 1 # Добавляем к сегодняшнему числу 1 (Будет небольшая путаница с Февралём)
+        import datetime
+        day = datetime.datetime.today() + datetime.timedelta(days = 1)
+        day = day.strftime('%d')
         return day
 
     def Mount():
+        from datetime import datetime
         mount = datetime.today().strftime('%m')
         return mount
